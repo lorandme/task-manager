@@ -387,9 +387,19 @@ footer {
     border-top: 1px solid var(--medium-gray);
 }
 
-footer i {
-    color: var(--accent-color);
+.github-link {
+    display: inline-flex;
+    gap: 3px;
+    text-decoration: none;
+    color: inherit;
 }
+
+.github-logo {
+    width: 16px;
+    height: 16px;
+    transform: translateY(2.5px);
+}
+
 
 footer .small {
     font-size: 12px;
@@ -438,4 +448,5 @@ footer .small {
         align-self: flex-start;
         margin-top: 2px;
     }
+
 }
