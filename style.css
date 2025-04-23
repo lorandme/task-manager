@@ -50,3 +50,31 @@ button {
 button:hover {
     background-color: #303f9f;
 }
+
+ul {
+    list-style: none;
+    padding: 0;
+}
+
+li {
+    background-color: #eee;
+    padding: 10px;
+    border-radius: 4px;
+    margin-bottom: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+li button {
+    background-color: crimson;
+    border: none;
+    color: white;
+    padding: 5px 10px;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+li button:hover {
+    background-color: darkred;
+}
