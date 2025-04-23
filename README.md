@@ -1,19 +1,32 @@
-A simple To-Do List web application built with HTML, CSS, and JavaScript. This app allows users to add and remove tasks.
+# Task Manager
 
-Features
+An advanced task management web application built with HTML, CSS, and JavaScript.
 
-    Add and remove tasks
+## Features
 
-    Tasks persist across page reloads using localStorage
+- Create, edit, and delete tasks
+- Mark tasks as complete
+- Set priority levels (Low, Medium, High)
+- Categorize tasks (Work, Personal, Study, Shopping, General)
+- Add due dates to tasks
+- Filter tasks by status, priority, and category
+- Search tasks by text
+- Persistent storage using localStorage
+- Fully responsive design for all devices
 
-Technologies Used
+## Technologies Used
 
-    HTML: Structure and content
+- HTML
+- CSS
+- JavaScript
+- localStorage API for data persistence
 
-    CSS: Styling and layout
+## Future Plans
 
-    JavaScript: Interactivity (task management and localStorage)
+I'm planning to learn Angular and to refactor this application using the framework to enhance functionality.
 
-Future Plans
+## Project Structure
 
-I’m currently learning Angular and plan to refactor this app using Angular in the future for a more dynamic experience.
+- `index.html` - Main HTML structure
+- `style.css` - All styling and responsive design
+- `script.js` - JavaScript functionality
