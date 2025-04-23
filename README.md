@@ -1,6 +1,7 @@
 # Task Manager
 
 An advanced task management web application built with HTML, CSS, and JavaScript.
+
 ![Task Manager Screenshot](/TaskManagerDemo.png)
 
 ## Features
